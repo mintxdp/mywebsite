@@ -1,11 +1,74 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+  <title>GitHub Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-info {
+      flex-grow: 1;
+    }
+
+    .profile-info h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .profile-info p {
+      margin: 0;
+      font-size: 16px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+  <div class="container">
+    <div class="profile">
+      <img class="profile-image" src="profile-image.jpg" alt="Profile Image">
+      <div class="profile-info">
+        <h1>Your Name</h1>
+        <p>GitHub username: your-username</p>
+        <p>Location: City, Country</p>
+      </div>
+    </div>
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at mauris justo. Sed tristique ipsum quis nisi fringilla, vitae laoreet magna ullamcorper. Nullam vitae posuere ipsum. Nunc et tempor felis. Mauris semper sem at nunc rhoncus, vel semper ligula iaculis.</p>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">Project 1</a></li>
+      <li><a href="#">Project 2</a></li>
+      <li><a href="#">Project 3</a></li>
+    </ul>
+  </div>
 </body>
 </html>
